@@ -5,6 +5,23 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Container(
+        padding: const EdgeInsets.only(
+          top: 60,
+          left: 40,
+          right: 40,
+        ),
+        color: Color.fromRGBO(181, 75, 1, 1),
+        child: ListView(
+          children: const <Widget>[
+            SizedBox(
+              width: 128,
+              height: 128,
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
